@@ -29,12 +29,14 @@ const CTA = () => {
                 difference of a professionally cleaned home. Our expert team is
                 ready to make your space shine.
               </p>
-              <Button
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-white px-10 py-6 text-lg shadow-glow hover:scale-105 transition-all duration-300"
-              >
-                Book Now
-              </Button>
+              <a href="https://wa.me/447886667036" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  className="bg-accent hover:bg-accent/90 text-white px-10 py-6 text-lg shadow-glow hover:scale-105 transition-all duration-300"
+                >
+                  Book Now
+                </Button>
+              </a>
             </div>
           </div>
 

@@ -52,9 +52,11 @@ const Navbar = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-secondary transition-all duration-300 group-hover:w-full" />
               </a>
             ))}
-            <Button className="bg-accent hover:bg-accent/90 text-white px-6 shadow-glow">
-              Book Now
-            </Button>
+            <a href="https://wa.me/447886667036" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-accent hover:bg-accent/90 text-white px-6 shadow-glow">
+                Book Now
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -82,9 +84,11 @@ const Navbar = () => {
               ))}
             </div>
             <div className="pb-8">
-              <Button className="w-full bg-accent hover:bg-accent/90 text-white shadow-glow py-6 text-lg">
-                Book Now
-              </Button>
+              <a href="https://wa.me/447886667036" target="_blank" rel="noopener noreferrer" className="block">
+                <Button className="w-full bg-accent hover:bg-accent/90 text-white shadow-glow py-6 text-lg">
+                  Book Now
+                </Button>
+              </a>
             </div>
           </div>
         )}
